@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500;1,600&family=Oswald:wght@200;700&family=Playfair+Display:wght@400;500;700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+}
+/* NavBar Styling Start */
+
+.navbar-container {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-top: 22px;
+    width: 80vw;
+}
+
+section nav div img {
+    padding: 10px;    
+    font-size: 50px;    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.list {
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 150px;
+    margin-left: 200px;
+    font-family: 'Roboto', serif;
+}
+
+.list-item {
+    margin-right: 40px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.list-item:hover {
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button-group {
+    display: inline-flex;
+    margin-right: 140px;
+}
+
+.search-icon {
+    margin-right: 8px;
+}
+.nav-button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    margin-top: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* NavBar Styling End */
+
+
+/* Hero Container Start */
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 19px;
+}
+
+.square {
+    position: relative;
+    order: 1;
+    margin-left: -22vw;
+    margin-top: 21vh;
+}
+
+.hero-container div > img {
+    width: 400px;
+    order: 1;
+    margin-left: 150px;
+    position: relative;
+}
+
+.globe {
+    order: 2;
+    
+}
+
+.star {
+    order: 4;
+
+}
+
+.hero-container-right {   
+    height: 200px;
+    width: 650px;
+    order: 3;
+    margin-top: 18vh;
+    margin-left: 38px;
+    text-align: center;
+}
+
+.hero-container-right h1 {
+    background-color: #fff;
+    width: 680px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+}
+
+p {
+    margin-top: 40px;
+}
+
+.button-email {
+    margin-top: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', serif;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.button-email:hover{    
+    box-shadow: 0 0 40px 40px #1f1f1f inset;
+    color: #ffffff;
+}
+
+.button-join {
+    margin-top: 90px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', serif;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.button-join:hover{    
+    box-shadow: 0 0 40px 40px #1f1f1f inset;
+    color: #ffffff;
+}
+
+.contact-heading  {
+    margin-top: 50px;
+    font-family: 'Roboto', serif;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+/* Hero Container End */
