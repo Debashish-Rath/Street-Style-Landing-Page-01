@@ -2,7 +2,7 @@
 
 This assignment was given to us as part of our ongoing **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, which has been built by using vanila **HTML5 and CSS3**.
 
-## 📌 **Live Site URL:**`<a href="www.google.com">`**Visit Now** 🚀`</a>`
+## 📌 **Live Site URL:**`<a href="https://debashish-street-style-landing-page.netlify.app/">`**Visit Now** 🚀`</a>`
 
 <br>
 
